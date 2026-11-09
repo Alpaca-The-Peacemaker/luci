@@ -1,0 +1,28 @@
+{
+	"luci-app-igmpproxy-plus": {
+		"description": "Grant access to igmpproxy-plus settings and status",
+		"read": {
+			"file": {
+				"/usr/sbin/igmpproxy -S": [
+					"exec"
+				]
+			},
+			"ubus": {
+				"file": [
+					"exec"
+				],
+				"luci-rpc": [
+					"getDHCPLeases"
+				]
+			},
+			"uci": [
+				"igmpproxy"
+			]
+		},
+		"write": {
+			"uci": [
+				"igmpproxy"
+			]
+		}
+	}
+}

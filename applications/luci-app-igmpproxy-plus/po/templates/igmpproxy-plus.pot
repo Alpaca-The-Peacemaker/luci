@@ -1,0 +1,461 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:78
+msgid "(more, untracked)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:7
+msgid ""
+"<b>Off</b>: RFC behaviour, keep forwarding until the last member queries "
+"time out (count x interval). <b>On</b>: stop forwarding on that interface as "
+"soon as any host leaves; other hosts re-join within milliseconds after the "
+"follow-up query. Best for one receiver per port, IPTV set-top boxes. "
+"<b>Auto</b>: stop at once when the last known host on that interface leaves, "
+"otherwise do the RFC check. Needs a switch with IGMP snooping so hosts do "
+"not suppress each other's reports."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Address"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:154
+msgid "Adds the IGMP and multicast forwarding firewall rules for this zone."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:40
+msgid "Advanced"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Age"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:207
+msgid "Allowed source networks"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:45
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:166
+msgid "Auto (last tracked host)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:77
+msgid "Automatic"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:119
+msgid ""
+"By default UPnP discovery traffic is kept local and never joined upstream. "
+"Enable only if you really need SSDP from the upstream network."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:125
+msgid "Debug"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:109
+msgid "Default: robustness."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:148
+msgid "Direction"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:150
+msgid "Downstream"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Downstream members"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:140
+msgid "Enabled"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:42
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:162
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Fast leave"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:138
+msgid "Filters"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:153
+msgid "Firewall zone"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:76
+msgid ""
+"Force the IGMP version used for joins and leaves on the upstream interface. "
+"Some IPTV providers need IGMPv2 to see leaves quickly."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:136
+msgid "General"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:34
+msgid "General settings"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/root/usr/share/rpcd/acl.d/luci-app-igmpproxy-plus.json:3
+msgid "Grant access to igmpproxy-plus settings and status"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Group"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:217
+msgid "Group blacklist"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:200
+msgid "Group membership timeout (s)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:212
+msgid "Group whitelist"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:114
+msgid ""
+"Hosts tracked per group per interface. Above it, auto fast leave falls back "
+"to the RFC check."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:201
+msgid ""
+"How long a group stays forwarded without a report. Empty = robustness x "
+"query interval + response interval."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:30
+#: applications/luci-app-igmpproxy-plus/root/usr/share/luci/menu.d/luci-app-igmpproxy-plus.json:3
+msgid "IGMP Proxy"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:129
+msgid "IGMP Proxy – Status"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:84
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:196
+msgid "IGMPv2"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:84
+msgid "IGMPv2 host present"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:83
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:195
+msgid "IGMPv3"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:82
+msgid ""
+"IGMPv3 queries keep hosts in IGMPv3, where every host reports and sends its "
+"leave, so host tracking and auto fast leave are exact. IGMPv2 hosts still "
+"work. Choose IGMPv2 only for old equipment that needs it."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:124
+msgid "Info (joins, leaves, fast leave)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Interface"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:129
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:103
+msgid "Interfaces"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:15
+msgid "Invalid status data: %s"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Last member queries"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:64
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:181
+msgid "Last member query count"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:58
+msgid "Last member query interval"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:174
+msgid "Last member query interval (ms)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:38
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:137
+msgid "Leave behaviour"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:131
+msgid "Live group table from the running proxy. Refreshes every 2 seconds."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:122
+msgid "Log level"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Membership timeout"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:59
+msgid ""
+"Milliseconds between group specific queries after a leave. Stock igmpproxy "
+"used 10000 ms. RFC default 1000 ms."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:70
+msgid ""
+"Milliseconds to stay joined upstream after the last downstream member is "
+"gone. Switching back to a channel inside this window is instant. 0 = leave "
+"immediately."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:106
+msgid "Multicast groups"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:31
+msgid ""
+"Multicast proxy with fine grained control over fast leave and the timers "
+"that decide how quickly multicast traffic stops after a leave."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:17
+msgid "Must be between %s and %s %s"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:144
+msgid "Network"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:108
+msgid "No active groups"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:105
+msgid "No interfaces"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:43
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:164
+msgid "Off (RFC 2236)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:44
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:165
+msgid "On (immediate)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:130
+msgid ""
+"One upstream interface (towards the multicast source) and one or more "
+"downstream interfaces. Per interface leave settings override the general "
+"ones."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:213
+msgid "Only these groups are proxied on this interface."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:118
+msgid "Proxy SSDP (239.255.255.250)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:39
+msgid "Querier timers"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Queries"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:65
+msgid ""
+"Queries sent before forwarding stops. Time to stop = count x interval. "
+"Defaults to the robustness value."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:92
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+msgid "Query interval"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:97
+msgid "Query response interval"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:81
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:193
+msgid "Query version"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Reports / leaves"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:87
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:187
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+msgid "Robustness"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:104
+msgid "Role"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:93
+msgid "Seconds between general queries on downstream interfaces."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:104
+msgid ""
+"Seconds between the general queries sent at startup. Default: query "
+"interval / 4."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:98
+msgid "Seconds hosts may wait before answering a general query (max 25.5)."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/root/usr/share/luci/menu.d/luci-app-igmpproxy-plus.json:22
+msgid "Settings"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:102
+msgid "Settings in use"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Sources"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:108
+msgid "Startup query count"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:103
+msgid "Startup query interval"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/root/usr/share/luci/menu.d/luci-app-igmpproxy-plus.json:14
+msgid "Status"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:157
+msgid "TTL threshold"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:218
+msgid ""
+"These groups are never proxied on this interface (e.g. 239.255.255.250/32 "
+"for SSDP)."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:88
+msgid ""
+"Tolerance for lost packets. Membership timeout = robustness x query interval "
+"+ response interval."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:113
+msgid "Tracked hosts limit"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:149
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:107
+msgid "Upstream"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:75
+msgid "Upstream IGMP version"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:69
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+msgid "Upstream leave delay"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:208
+msgid "Upstream: networks multicast sources may come from (e.g. 0.0.0.0/0)."
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:53
+msgid "Uptime"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:163
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:194
+msgid "Use general setting"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:123
+msgid "Warnings"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:80
+msgid "checking (%d queries left)"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:203
+msgid "computed"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:83
+msgid "expires %s"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:80
+msgid "forwarding"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:171
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:176
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:183
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/settings.js:189
+msgid "general"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:10
+msgid "igmpproxy is not running"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:93
+msgid "joined"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:93
+msgid "leaving in %s"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:95
+msgid "no listeners"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:94
+msgid "not joined"
+msgstr ""
+
+#: applications/luci-app-igmpproxy-plus/htdocs/luci-static/resources/view/igmpproxy/status.js:81
+msgid "stopped, querying"
+msgstr ""
